@@ -1,7 +1,7 @@
 
 public class Cards implements Comparable<Cards> {
-	private String[] suits = { "Spades", "Hearts", "Diamonds", "Clubs" };
-	private String[] ranks = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
+	private final String[] suits = { "Spades", "Hearts", "Diamonds", "Clubs" };
+	private final String[] ranks = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
 	private final int sindex;
 	private final int rindex;
 
