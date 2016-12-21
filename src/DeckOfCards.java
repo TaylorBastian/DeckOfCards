@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Random;
@@ -56,7 +55,7 @@ public class DeckOfCards {
 
 	public void printDeck() {
 		for (int i = 0; i < deck.size(); i++) {
-			System.out.println(deck.get(i).getRanks() + " of " + deck.get(i).getSuits());
+			System.out.println(deck.get(i).getRank() + " of " + deck.get(i).getSuit());
 		}
 	}
 
